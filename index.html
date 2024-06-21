@@ -2,9 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>LevelUp | Test</title>
+    <link rel="shortcut icon" href="img/prod.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <div class="container">
+        <div class="main">
+            <div class="video">
+                <video src="img/main_background.mp4" playsinline autoplay muted loop></video>
+            </div>
+            <div class="main-blocks">
+                <div class="first">
+                    <h1>LevelUp</h1>
+                    <p>инновационный продукт в медицине</p>
+                </div>
+                <div class="second">
+                    <div class="second-block">
+                        <img src="img/prod.png" alt="товар 1">
+                        <ul>
+                            <li>Лечит болезнь 1</li>
+                            <li>Лечит болезнь 2</li>
+                            <li>Лечит болезнь 3</li>
+                        </ul>
+                        <a href="#form" class="buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <h1>Состав продукта</h1>
+            <div class="about-blocks">
+                <div class="about-info">
+                    <div class="element el1">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                    <div class="element el2">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                    <div class="element el3">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod.png" alt="">
+                    <a href="#form" class="buy">Заказать</a>
+                </div>
+                <div class="about-info">
+                    <div class="element el4">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                    <div class="element el5">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                    <div class="element el6">
+                        <img src="img/element.png" alt="element">
+                        <p>Элемент</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="carousel-info">
+                <h1>
+                    Отзывы
+                </h1>
+                <div class="carousel-arrows">
+                    <a id="prev"><img src="img/arrow-left-solid.svg" alt="prev"></a>
+                    <p id="indicator">3<span class="indicator-disabled">/</span><span class="indicator-disabled">6</span></p>
+                    <a id="next"><img src="img/arrow-right-solid.svg" alt="next"></a>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/user-solid.svg" alt="">
+                        <p class="user-name">Иванов Иван Иванович</p>
+                        <p class="user-feedback">Все супер!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promo">
+            <div class="promo-main">
+                <img src="img/doctor.png" alt="Доктор с LevelUp">
+                <div class="promo-block">
+                    <p class="big">
+                        LevelUp - инновационный продукт который подойдет каждому!
+                    </p>
+                    <ul>
+                        <li>Лечит болезнь 1</li>
+                        <li>Лечит болезнь 2</li>
+                        <li>Лечит болезнь 3</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#form" class="buy">Заказать</a>
+        </div>
+        <div class="buynow">
+            <h1>Форма заказа</h1>
+            <div id="timer">До конца акции осталось: </div>
+            <div class="form" id="form">
+                <div class="forma">
+                    <form method="post">
+                        <p>Закажите прямо сейчас!</p>
+                        <div class="for-text-upper-input">
+                            <p>ФИО&nbsp<span style="color: rgba(235, 87, 87, 1)">*</span></p>
+                            <input placeholder="Иванов Иван Иваныч" name="name" required>
+                        </div>
+                        <div class="for-text-upper-input">
+                            <p>Телефон&nbsp<span style="color: rgba(235, 87, 87, 1)">*</span></p>
+                            <input placeholder="+7 (999) 856 - 34-34" name="number" type="number" required>
+                        </div>
+                        <div class="input-checkbox">
+                            <input type="checkbox" class="checkbox" id="checkbox" required>
+                            <label for="checkbox"></label><span>Я согласен с <a href=""><strong>условиями передачи информации.</strong></a></span>
+                        </div>
+                        <button class="buy">Заказать!</button>
+                    </form>
+                </div>
+                <div style="display: flex;flex-direction: column; align-items: center; gap: 20px;">
+                    <img src="img/prod.png" alt="LevelUp">
+                    <div class="cost"><span class="crossed">499руб.</span><p>299руб.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
