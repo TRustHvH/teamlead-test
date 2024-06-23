@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (time < 0) {
             clearInterval(countDown);
-            document.getElementById('timer').textContent = "Time's up!";
+            document.getElementById('timer').textContent = "Время вышло!";
         }
     }, 1000);
 })
